@@ -1,0 +1,58 @@
+.gwtLabelMoficado {
+    color: Red;
+}
+.gwtCaptionPanelModificado{
+	border: 2px;
+    border-style: solid;
+    border-color: Gray;
+}
+.gwtCaptionPanelModificado legend{
+	color: Red;
+
+}
+.gwtTextBoxModificado {
+	color: Red;
+	padding: 5px 4px;
+	border-top: 1px solid #999;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	font-size: smaller;
+	font-family: Arial Unicode MS, Arial, sans-serif;
+	background: Black;
+}
+.gwtPopupPanelModificado{
+  border: 2px solid Gray;
+  padding: 0px;
+  background: black;
+  /*resto del mundo*/
+  opacity: 0.5;
+  /*ie
+  filter: alpha(opacity=50);
+  */
+  color: Red;
+}
+.gwtButtonModificado {
+	color: Red;
+	margin: 0px;
+	padding: 5px 7px;
+	border-top: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #a0a0a0;
+	border-left: 1px solid #bbb;
+	font-size: small;
+	text-decoration: none;
+	background-color: Gray;
+	cursor: hand;
+ -moz-border-radius: 3px;
+}
+
+.gwtTextAreaModificado {
+  background-color: Black;
+  color: Red;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-top: 1px solid #666;
+  font-size: 100%;
+  font-family: Arial Unicode MS, Arial, sans-serif;
+}
