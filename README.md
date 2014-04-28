@@ -2,6 +2,10 @@ MATAMARCIANOS
 ==
 Este juego se hizo para probar GWT + HTML5
 
+**PROBANDO**
+
+http://matamarcianos2000.appspot.com
+
 **INSTALACION**
 
 * Instale el plugin de MAVEN para Eclipse
