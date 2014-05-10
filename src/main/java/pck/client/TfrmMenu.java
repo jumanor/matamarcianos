@@ -17,6 +17,11 @@ import com.google.gwt.i18n.client.NumberFormat;
 
 import com.google.gwt.user.client.ui.IntegerBox;
 
+/**
+ * Formulario Construido con GWT DESIGNER
+ * @author jumanor
+ *
+ */
 public class TfrmMenu extends PopupPanel {
 	public IntegerBox txtAncho;
 	public IntegerBox txtAlto;
@@ -118,9 +123,14 @@ public class TfrmMenu extends PopupPanel {
 		absolutePanel_3.add(lblRer, 10, 0);
 		lblRer.setSize("321px", "24px");
 		
-		Label lblProgrammersistemasunajma = new Label("TACNA - 2014");
+		Label lblProgrammersistemasunajma = new Label("http://github.com/jumanor/matamarcianos");
 		lblProgrammersistemasunajma.setStyleName(cssFrmMenu.gwtLabelMoficado());
-		absolutePanel_3.add(lblProgrammersistemasunajma, 10, 30);
+		absolutePanel_3.add(lblProgrammersistemasunajma, 10, 20);
 		lblProgrammersistemasunajma.setSize("321px", "24px");
+		
+		Label lblHttpjumanorblogspotcom = new Label("http://jumanor.blogspot.com");
+		lblHttpjumanorblogspotcom.setStyleName(cssFrmMenu.gwtLabelMoficado());
+		absolutePanel_3.add(lblHttpjumanorblogspotcom, 10, 40);
+		lblHttpjumanorblogspotcom.setSize("321px", "24px");
 	}
 }
